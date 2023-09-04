@@ -1,0 +1,144 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+8-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:5:5-68
+11-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:5:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:6:5-74
+12-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:6:22-71
+13    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+13-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:7:5-76
+13-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:7:22-73
+14
+15    <permission
+15-->[androidx.core:core:1.9.0] C:\Users\ROG\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+16        android:name="com.example.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.9.0] C:\Users\ROG\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.9.0] C:\Users\ROG\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.example.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.9.0] C:\Users\ROG\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.9.0] C:\Users\ROG\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:9:5-45:19
+22        android:allowBackup="true"
+22-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:10:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.9.0] C:\Users\ROG\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+24        android:dataExtractionRules="@xml/data_extraction_rules"
+24-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:11:9-65
+25        android:debuggable="true"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:12:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:13:9-43
+28        android:label="@string/app_name"
+28-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:14:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:15:9-54
+30        android:supportsRtl="true"
+30-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:16:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.MyApplication" >
+32-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:17:9-51
+33        <activity
+33-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:19:9-21:40
+34            android:name="com.example.myapplication.Inicio"
+34-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:20:13-35
+35            android:exported="false" />
+35-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:21:13-37
+36        <activity
+36-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:22:9-24:40
+37            android:name="com.example.myapplication.MainActivity"
+37-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:23:13-41
+38            android:exported="false" />
+38-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:24:13-37
+39        <activity
+39-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:25:9-27:40
+40            android:name="com.example.myapplication.Movimiento"
+40-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:26:13-39
+41            android:exported="false" />
+41-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:27:13-37
+42        <activity
+42-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:28:9-30:40
+43            android:name="com.example.myapplication.ModoManual"
+43-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:29:13-39
+44            android:exported="false" />
+44-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:30:13-37
+45        <activity
+45-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:31:9-35:58
+46            android:name="com.example.myapplication.MainActivity2"
+46-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:32:13-42
+47            android:exported="false"
+47-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:33:13-37
+48            android:label="@string/title_activity_main2"
+48-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:34:13-57
+49            android:theme="@style/Theme.MyApplication" />
+49-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:35:13-55
+50        <activity
+50-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:36:9-44:20
+51            android:name="com.example.myapplication.BluetoothManager"
+51-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:37:13-45
+52            android:exported="true" >
+52-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:38:13-36
+53            <intent-filter>
+53-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:39:13-43:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:40:17-69
+54-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:40:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:42:17-77
+56-->C:\Users\ROG\Documents\ESPOL\Programacion de sistemas telematicos\Proyecto\MyApplication\app\src\main\AndroidManifest.xml:42:27-74
+57            </intent-filter>
+58        </activity>
+59
+60        <provider
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ROG\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+61            android:name="androidx.startup.InitializationProvider"
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ROG\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+62            android:authorities="com.example.myapplication.androidx-startup"
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ROG\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+63            android:exported="false" >
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ROG\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+64            <meta-data
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ROG\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+65                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ROG\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+66                android:value="androidx.startup" />
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ROG\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+67            <meta-data
+67-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ROG\.gradle\caches\transforms-3\75d35fda4271de3dc184847093d1a2b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+68                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+68-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ROG\.gradle\caches\transforms-3\75d35fda4271de3dc184847093d1a2b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+69                android:value="androidx.startup" />
+69-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ROG\.gradle\caches\transforms-3\75d35fda4271de3dc184847093d1a2b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+70        </provider>
+71
+72        <uses-library
+72-->[androidx.window:window:1.0.0] C:\Users\ROG\.gradle\caches\transforms-3\98fbcfdeb64a67de9fd697c6d31f0b08\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+73            android:name="androidx.window.extensions"
+73-->[androidx.window:window:1.0.0] C:\Users\ROG\.gradle\caches\transforms-3\98fbcfdeb64a67de9fd697c6d31f0b08\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+74            android:required="false" />
+74-->[androidx.window:window:1.0.0] C:\Users\ROG\.gradle\caches\transforms-3\98fbcfdeb64a67de9fd697c6d31f0b08\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+75        <uses-library
+75-->[androidx.window:window:1.0.0] C:\Users\ROG\.gradle\caches\transforms-3\98fbcfdeb64a67de9fd697c6d31f0b08\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+76            android:name="androidx.window.sidecar"
+76-->[androidx.window:window:1.0.0] C:\Users\ROG\.gradle\caches\transforms-3\98fbcfdeb64a67de9fd697c6d31f0b08\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+77            android:required="false" />
+77-->[androidx.window:window:1.0.0] C:\Users\ROG\.gradle\caches\transforms-3\98fbcfdeb64a67de9fd697c6d31f0b08\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+78    </application>
+79
+80</manifest>
